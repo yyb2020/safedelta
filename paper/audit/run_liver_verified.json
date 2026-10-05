@@ -1,0 +1,99 @@
+{
+  "workflow": "liver",
+  "started_utc": "2026-10-01T02:57:57Z",
+  "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+  "platform": "Linux-6.8.0-142-generic-x86_64-with-glibc2.36",
+  "environment": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "h5py": "3.16.0",
+    "anndata": "0.13.3.post0",
+    "controlcoupling": "0.2.0"
+  },
+  "inputs": [
+    {
+      "path": "GSE253493_RAW.tar",
+      "bytes": 61798400,
+      "sha256": "6d4d9692e764123f16669e9c9cbe7d2c9f7ef343bc9a425cdf83d0a60a630ee6"
+    },
+    {
+      "path": "GSE338525_RAW.tar",
+      "bytes": 155422720,
+      "sha256": "d4927812225da24761abc392b475f6220130af2f007f78be23f40fa6fedadd88"
+    },
+    {
+      "path": "GSE253493_series_matrix.txt.gz",
+      "bytes": 2775,
+      "sha256": "5d481927b26dd870a348cb1a404389eeb4cbed7e6b118da7ce58f81386eb9920"
+    },
+    {
+      "path": "GSE338525_BA1_metadata.csv.gz",
+      "bytes": 160412,
+      "sha256": "d45d2cf409be2691ab9888a6ee1dedf05d92af7b2837452a5b0442aa07c6cb68"
+    },
+    {
+      "path": "GSE338525_BA2_metadata.csv.gz",
+      "bytes": 177417,
+      "sha256": "75cd388c67a4185fed6b80ac0daf2d39bd18e7a895199fc26409910dac1780da"
+    },
+    {
+      "path": "GSE338525_NL_metadata.csv.gz",
+      "bytes": 260005,
+      "sha256": "24191d27371c4a1026abe3f90f6afe9aed95bc2f97173a03c096119c78cb9cbc"
+    },
+    {
+      "path": "GSE338525_NonBA_metadata.csv.gz",
+      "bytes": 196378,
+      "sha256": "1b85493b479a9b1d88e61bde23e2ef785237f7cfe711a3e36fa468039befdf60"
+    }
+  ],
+  "commands": [
+    {
+      "script": "liver_raw.py",
+      "sha256": "80cecef07b20b1a0fd4c9d4216db1f5621499a167a4d7bd03f442dcab88a065c",
+      "arguments": [
+        "--bulk-tar",
+        "GSE253493_RAW.tar",
+        "--spatial-tar",
+        "GSE338525_RAW.tar",
+        "--metadata-dir",
+        "raw_downloads",
+        "--output",
+        "run_liver_final"
+      ],
+      "log": "00_liver_raw.log",
+      "exit_code": 0
+    },
+    {
+      "script": "liver_thresholds.py",
+      "sha256": "3385c3953b117b3066f1b968d80eeb7b84f118fbbd9ac8c2e5b6079226708db8",
+      "arguments": [
+        "--spatial-tar",
+        "GSE338525_RAW.tar",
+        "--metadata-dir",
+        "raw_downloads",
+        "--output",
+        "run_liver_final"
+      ],
+      "log": "01_liver_thresholds.log",
+      "exit_code": 0
+    },
+    {
+      "script": "liver_abundance.py",
+      "sha256": "5232cf50293775ec65e123aa1c8c757aa4c646d73eec0ef74ac7f050da6f47f5",
+      "arguments": [
+        "--output",
+        "run_liver_final",
+        "--metadata-dir",
+        "raw_downloads"
+      ],
+      "log": "02_liver_abundance.log",
+      "exit_code": 0
+    }
+  ],
+  "completed": true,
+  "comparisons_passed": true,
+  "finished_utc": "2026-10-01T02:58:30Z",
+  "path_note": "Absolute input/output paths replaced with basenames; full original receipt remains in author review folder."
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "file": "plate7_pseudobulk.npz",
+    "axis_labels_converted_from_object_to_unicode": [
+      "contexts",
+      "targets"
+    ],
+    "numeric_arrays_unchanged": true
+  },
+  {
+    "file": "plate7_16line_pseudobulk.npz",
+    "axis_labels_converted_from_object_to_unicode": [
+      "lines",
+      "conds"
+    ],
+    "numeric_arrays_unchanged": true
+  }
+]

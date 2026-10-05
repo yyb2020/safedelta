@@ -1,0 +1,5 @@
+dataset,contexts,panels,lam,n0,infl_trVAE,infl_calmean,infl_Boff,infl_pooledB,top1,top2,margin,diff_infl,topTwo_rule,winner_changes,moved
+sciplex3,3,36,0.047584,529.0,0.098483,0.071088,0.056834,0.0,trVAE_plus_offset,trVAE,0.005119,-0.015788,False,False,0
+McFarland,5,60,0.095975,122.0,0.228689,0.184031,0.186712,0.0,trVAE,trVAE_plus_offset,0.021606,-0.009636,False,False,5
+KaggleCrossCell,5,27,0.107825,518.0,0.106268,0.150591,0.12707,0.0,trVAE,trVAE_plus_offset,0.017947,-0.03706,False,False,2
+Haber,8,24,0.227289,93.0,0.261564,0.269522,0.248013,0.0,trVAE,trVAE_plus_offset,0.022785,0.003504,False,True,6

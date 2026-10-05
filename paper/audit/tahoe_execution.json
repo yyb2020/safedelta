@@ -1,0 +1,51 @@
+{
+  "execution_mode": "Individual recorded CLI steps; not a claimed single reproduce.py invocation for Tahoe.",
+  "input_manifest": "../manifests/public_inputs.json",
+  "steps": [
+    {
+      "script": "tahoe_raw.py",
+      "current_script_sha256": "c72e033c828d380ed272c1d1fa1f9b14665323ec3353cebe24e12c33388446fa",
+      "log": "tahoe_plate2.log",
+      "log_sha256": "d629ff211dcbc11ab22b096b98be8b2daf4be18a9ca627bed4489dd09e7b62b4",
+      "completed": true
+    },
+    {
+      "script": "tahoe_raw.py",
+      "current_script_sha256": "c72e033c828d380ed272c1d1fa1f9b14665323ec3353cebe24e12c33388446fa",
+      "log": "tahoe_plate7.log",
+      "log_sha256": "101bc2b7703242d4915a1a6ac3aad668a973dcd589c97ad52ad4f10e053458d8",
+      "completed": true
+    },
+    {
+      "script": "tahoe_analysis.py",
+      "current_script_sha256": "d7e33733d075c4bf8169b671885800c88c47aa766c6d4beb62a39ba0a4a05a86",
+      "log": "tahoe_analysis_plate2.log",
+      "log_sha256": "56d8f238e22c9dc112f82c79806fe80e3763971926be7c5f467ef90d6b37e3b2",
+      "completed": true
+    },
+    {
+      "script": "tahoe_analysis.py",
+      "current_script_sha256": "d7e33733d075c4bf8169b671885800c88c47aa766c6d4beb62a39ba0a4a05a86",
+      "log": "tahoe_analysis_plate7.log",
+      "log_sha256": "dc477c299d9af19d06e1b44c27b4670f63453fd00fd408bc6b0f842cbc3d00fa",
+      "completed": true
+    },
+    {
+      "script": "tahoe_16line_raw.py",
+      "current_script_sha256": "8630c4174e4e1e9645a1d2e4ce4f246f3442a0b9b237cad863b5132a4479f567",
+      "log": "tahoe_16line_raw.log",
+      "log_sha256": "f4c1a1ed404a12686f5e87f78d5ba355eafab5b87a8a1fbb7b911c51173a626d",
+      "completed": true
+    },
+    {
+      "script": "tahoe_weight_rules.py",
+      "current_script_sha256": "e2862d39517db3ab2e57fd4311585cb1ee65fa2077d3dc129c1fa0debab8db54",
+      "log": "tahoe_weight_rules.log",
+      "log_sha256": "bb306fe4093af9b1e44dd81b0bb639a52d8190dff61720b3c2a2d2ec6de4c3c5",
+      "completed": true
+    }
+  ],
+  "serialization_note": "Generated Plate 7 NPZ axis labels were converted from object to Unicode; all numeric arrays retained. Final builders write Unicode directly.",
+  "final_result_comparison": "comparison.json",
+  "package_math_regression": "19 passing package tests, including archived independent numerical definitions"
+}

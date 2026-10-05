@@ -1,0 +1,860 @@
+[
+  {
+    "panel": "fig1a",
+    "function": "fig1_a",
+    "tables": [],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig1b",
+    "function": "fig1_b",
+    "tables": [
+      "weightrule2_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig1c",
+    "function": "fig1_c",
+    "tables": [
+      "safedelta_gate_evidence_repair.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig1d",
+    "function": "fig1_d",
+    "tables": [
+      "criterion_predicts_transfer.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig1e",
+    "function": "fig1_e",
+    "tables": [
+      "release_rule_validation.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig1f",
+    "function": "fig1_f",
+    "tables": [
+      "criterion_threshold_loco_v2.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig1g",
+    "function": "fig1_g",
+    "tables": [
+      "gate_policy_comparison_celllines.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig1h",
+    "function": "fig1_h",
+    "tables": [
+      "fig1d_external_validation.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig2a",
+    "function": "fig2_a",
+    "tables": [
+      "nm_leaderboard_identifiability.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig2b",
+    "function": "fig2_b",
+    "tables": [
+      "tahoe_budget_k_comparison.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig2c",
+    "function": "fig2_c",
+    "tables": [
+      "nm_identifiability_shared_regime.csv",
+      "nm_leaderboard_identifiability.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig2d",
+    "function": "fig2_d",
+    "tables": [
+      "nm_bias_vs_margin.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig2e",
+    "function": "fig2_e",
+    "tables": [
+      "nm_bias_vs_margin.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig2f",
+    "function": "fig2_f",
+    "tables": [
+      "tahoe_budget_k_comparison.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig2g",
+    "function": "fig2_g",
+    "tables": [
+      "nm_design_requirement.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig2h",
+    "function": "fig2_h",
+    "tables": [
+      "plate2_per_drug_reliability.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig3a",
+    "function": "fig3_a",
+    "tables": [
+      "w10_four_dataset_verified.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig3b",
+    "function": "fig3_b",
+    "tables": [
+      "w10_four_dataset_verified.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig3c",
+    "function": "fig3_c",
+    "tables": [
+      "w10_four_dataset_verified.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig3d",
+    "function": "fig3_d",
+    "tables": [
+      "w10_four_dataset_verified.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig3e",
+    "function": "fig3_e",
+    "tables": [
+      "iid_arm_ranking.csv",
+      "w10_four_dataset_verified.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig3f",
+    "function": "fig3_f",
+    "tables": [
+      "sciplex3_batch_offset_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig3g",
+    "function": "fig3_g",
+    "tables": [
+      "plate7_depth_ladder.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig3h",
+    "function": "fig3_h",
+    "tables": [
+      "tahoe_budget_k_comparison.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig4a",
+    "function": "fig4_a",
+    "tables": [
+      "lambda_screen_all_datasets.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig4b",
+    "function": "fig4_b",
+    "tables": [
+      "lambda_screen_all_datasets.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig4c",
+    "function": "fig4_c",
+    "tables": [
+      "lambda_screen_all_datasets.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig4d",
+    "function": "fig4_d",
+    "tables": [
+      "lambda_not_depth.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig4e",
+    "function": "fig4_e",
+    "tables": [
+      "plate7_depth_numerator_gap.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig4f",
+    "function": "fig4_f",
+    "tables": [
+      "plate7_depth_numerator_gap.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig4g",
+    "function": "fig4_g",
+    "tables": [
+      "plate7_depth_numerator_gap.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig4h",
+    "function": "fig4_h",
+    "tables": [
+      "plate7_depth_law_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig5a",
+    "function": "fig5_a",
+    "tables": [
+      "plate7_depth_ladder.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig5b",
+    "function": "fig5_b",
+    "tables": [
+      "plate7_depth_ladder.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig5c",
+    "function": "fig5_c",
+    "tables": [
+      "plate7_depth_ladder.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig5d",
+    "function": "fig5_d",
+    "tables": [
+      "plate7_depth_sweep_ladder.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig5e",
+    "function": "fig5_e",
+    "tables": [
+      "plate7_depth_sweep_ladder.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig5f",
+    "function": "fig5_f",
+    "tables": [
+      "lib_ablate_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig5g",
+    "function": "fig5_g",
+    "tables": [
+      "depth_honest_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig6a",
+    "function": "fig6_a",
+    "tables": [
+      "liver_spatial_spot_scores.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig6b",
+    "function": "fig6_b",
+    "tables": [
+      "liver_spatial_state_vs_abundance.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig6c",
+    "function": "fig6_c",
+    "tables": [
+      "liver_cohort_stage_association.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig6d",
+    "function": "fig6_d",
+    "tables": [
+      "liver_spatial_section_contrast.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig6e",
+    "function": "fig6_e",
+    "tables": [
+      "liver_threshold_sensitivity_per_section.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig6f",
+    "function": "fig6_f",
+    "tables": [
+      "liver_core_external_validation.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig6g",
+    "function": "fig6_g",
+    "tables": [
+      "liver_adapter_decomposition.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig6h",
+    "function": "fig6_h",
+    "tables": [
+      "liver_axis_cross_system.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig6i",
+    "function": "fig6_i",
+    "tables": [
+      "liver_core94_signature.csv",
+      "spatial_expressed_pool.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "fig6j",
+    "function": "fig6_j",
+    "tables": [
+      "liver_core_vs_specific_per_section.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed1a",
+    "function": "ed1_a",
+    "tables": [
+      "headroom_by_k.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed1b",
+    "function": "ed1_b",
+    "tables": [
+      "headroom_by_k.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed1c",
+    "function": "ed1_c",
+    "tables": [
+      "capacity2_summary.csv",
+      "lib_ablate_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed1d",
+    "function": "ed1_d",
+    "tables": [
+      "lib_ablate_raw.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed1e",
+    "function": "ed1_e",
+    "tables": [
+      "lambda_prehoc_vs_posthoc.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed1f",
+    "function": "ed1_f",
+    "tables": [
+      "lambda_prehoc_vs_posthoc.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed1g",
+    "function": "ed1_g",
+    "tables": [
+      "ceiling_vs_depth_merged.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed1h",
+    "function": "ed1_h",
+    "tables": [
+      "ceiling_vs_depth_merged.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed2a",
+    "function": "ed2_a",
+    "tables": [
+      "w10_dataset_audit.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed2b",
+    "function": "ed2_b",
+    "tables": [
+      "split_key_confounding.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed2c",
+    "function": "ed2_c",
+    "tables": [
+      "ed4_cluster_bootstrap.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed2d",
+    "function": "ed2_d",
+    "tables": [
+      "scgen_control_regime.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed2e",
+    "function": "ed2_e",
+    "tables": [
+      "trvae_tahoe_regime.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed2f",
+    "function": "ed2_f",
+    "tables": [
+      "trvae_sciplex3_regime.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed3a",
+    "function": "ed3_a",
+    "tables": [
+      "fig3b_carriage_by_model_dataset.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed3b",
+    "function": "ed3_b",
+    "tables": [
+      "carriage_additivity.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed3c",
+    "function": "ed3_c",
+    "tables": [
+      "scgen_control_regime_sensitivity.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed3d",
+    "function": "ed3_d",
+    "tables": [
+      "w10_carriage_norm_vs_projection.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed3e",
+    "function": "ed3_e",
+    "tables": [
+      "composition_rule_carriage.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed3f",
+    "function": "ed3_f",
+    "tables": [
+      "w10_four_dataset_verified.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed4a",
+    "function": "ed4_a",
+    "tables": [
+      "plate7_depth_ladder.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed4b",
+    "function": "ed4_b",
+    "tables": [
+      "plate7_depth_ladder.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed4c",
+    "function": "ed4_c",
+    "tables": [
+      "samplesize_vs_k.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed4d",
+    "function": "ed4_d",
+    "tables": [
+      "tahoe_budget_k_comparison.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed4e",
+    "function": "ed4_e",
+    "tables": [
+      "selection_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed4f",
+    "function": "ed4_f",
+    "tables": [
+      "weightrule_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed4g",
+    "function": "ed4_g",
+    "tables": [
+      "headroom_by_k.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed4h",
+    "function": "ed4_h",
+    "tables": [
+      "plate7_depth_ladder.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed4i",
+    "function": "ed4_i",
+    "tables": [
+      "improve_by_k.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed5a",
+    "function": "ed5_a",
+    "tables": [
+      "criterion_external_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed5b",
+    "function": "ed5_b",
+    "tables": [
+      "criterion_external_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed5c",
+    "function": "ed5_c",
+    "tables": [
+      "w10_reproduction_paired.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed5d",
+    "function": "ed5_d",
+    "tables": [
+      "w10_winner_change_vs_margin.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed5e",
+    "function": "ed5_e",
+    "tables": [
+      "plate2_shared_variance_share.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed5f",
+    "function": "ed5_f",
+    "tables": [
+      "plate2_shared_term_removal.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed5g",
+    "function": "ed5_g",
+    "tables": [
+      "plate2_calmean_shared_term.csv",
+      "plate2_centering_null.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed5h",
+    "function": "ed5_h",
+    "tables": [
+      "plate2_firewall_registry.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed6a",
+    "function": "ed6_a",
+    "tables": [
+      "adapter_cellot_kagglecrosspatient.csv",
+      "adapter_formal_panel_metrics.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed6b",
+    "function": "ed6_b",
+    "tables": [
+      "adapter_formal_panel_metrics.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed6c",
+    "function": "ed6_c",
+    "tables": [
+      "adapter_formal_panel_metrics.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed6d",
+    "function": "ed6_d",
+    "tables": [
+      "adapter_formal_safety_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed6e",
+    "function": "ed6_e",
+    "tables": [
+      "plate2_per_drug_reliability.csv",
+      "plate2_prospective_context_summary.csv",
+      "plate2_prospective_overall_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed6f",
+    "function": "ed6_f",
+    "tables": [
+      "plate2_per_drug_reliability.csv",
+      "plate2_prospective_context_summary.csv",
+      "plate2_prospective_overall_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed6g",
+    "function": "ed6_g",
+    "tables": [
+      "plate2_per_drug_reliability.csv",
+      "plate2_prospective_context_summary.csv",
+      "plate2_prospective_overall_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed6h",
+    "function": "ed6_h",
+    "tables": [
+      "plate2_per_drug_reliability.csv",
+      "plate2_prospective_context_summary.csv",
+      "plate2_prospective_overall_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed7a",
+    "function": "ed7_a",
+    "tables": [
+      "singlecell_distribution_aggregate.csv",
+      "singlecell_distribution_inner_selection.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed7b",
+    "function": "ed7_b",
+    "tables": [
+      "singlecell_distribution_aggregate.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed7c",
+    "function": "ed7_c",
+    "tables": [
+      "mixseq_comparator_suite.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed7d",
+    "function": "ed7_d",
+    "tables": [
+      "jiang_pathway_arm_metrics.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed7e",
+    "function": "ed7_e",
+    "tables": [
+      "adapter_formal_panel_metrics.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed7f",
+    "function": "ed7_f",
+    "tables": [
+      "lofo_permutation_summary.csv",
+      "lofo_strategy_summary.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed7g",
+    "function": "ed7_g",
+    "tables": [
+      "k562_growth_bootstrap.csv",
+      "k562_growth_metrics.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed7h",
+    "function": "ed7_h",
+    "tables": [
+      "k562_growth_bootstrap.csv",
+      "k562_mean_bootstrap.csv",
+      "k562_mean_per_fold.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed8a",
+    "function": "ed8_a",
+    "tables": [
+      "sciplex3_depth_numerator_gap.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed8b",
+    "function": "ed8_b",
+    "tables": [
+      "plate7_depth_numerator_gap.csv",
+      "sciplex3_depth_numerator_gap.csv"
+    ],
+    "trace": "runtime"
+  },
+  {
+    "panel": "ed8c",
+    "function": "ed8_c",
+    "tables": [
+      "sciplex3_depth_numerator_gap.csv"
+    ],
+    "trace": "runtime"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "top_quintile_scar_spots": 2566,
+  "top_quintile_hep_spots": 1120,
+  "core_score_scar_minus_hep": 0.18516900000000003,
+  "residual_score_scar_minus_hep": 0.054701,
+  "mann_whitney_one_sided_p": 1.3962214943435078e-181,
+  "inference_unit": "spot; reproduction of the reported number does not establish independence of clustered spots"
+}

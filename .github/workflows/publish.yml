@@ -1,0 +1,38 @@
+# Publishes to PyPI when a GitHub release is published, using PyPI Trusted Publishing
+# (no API token is stored anywhere). It does nothing until the repository owner
+# registers this repository and workflow as a trusted publisher on pypi.org
+# (Account settings -> Publishing -> add a pending publisher:
+#  project name "safedelta", workflow "publish.yml", environment "pypi").
+name: publish
+on:
+  release:
+    types: [published]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install '.[dev]'
+      - run: python scripts/check_integrity.py
+      - run: python -m pytest
+      - run: python -m build
+      - run: python -m twine check dist/*
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1

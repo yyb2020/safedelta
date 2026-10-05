@@ -1,0 +1,9 @@
+# Observed successful reproduction environment: Python 3.12.14
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+anndata==0.13.3.post0
+h5py==3.16.0
+matplotlib==3.11.2
+Pillow==12.3.0
+threadpoolctl==3.7.0

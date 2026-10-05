@@ -1,0 +1,6 @@
+setting,n0,lam,infl_calmean_pct
+McFarland (benchmark ood pipeline),245.0,0.080944,65.360511
+KaggleCrossCell (benchmark ood pipeline),996.0,0.028865,35.839476
+sciplex3 (benchmark ood pipeline),1752.0,0.019068,7.135905
+"Tahoe (this project's pipeline, scGen)",250.0,0.255465,149.95
+"Tahoe (this project's pipeline, trVAE)",250.0,0.270236,137.58

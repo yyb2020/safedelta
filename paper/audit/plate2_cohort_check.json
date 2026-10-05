@@ -1,0 +1,12 @@
+{
+  "selected_cells": 26700,
+  "selected_rows_and_labels_equal_frozen_cohort": true,
+  "raw_rebuilt_response_cube_shape": [
+    15,
+    88,
+    7070
+  ],
+  "max_abs_diff_from_archived_float32_response_cube": 0.0,
+  "within_float32_tolerance": true,
+  "comparison_only": "Archived response cube was read only after the raw count reconstruction; never used to generate the analysis."
+}

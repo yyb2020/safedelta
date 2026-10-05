@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safedelta"
+version = "1.0.0"
+description = "Split-control criterion and diagnostics for few-shot adaptation of perturbation-response predictors"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["numpy>=1.23"]
+keywords = ["single-cell", "perturbation", "few-shot adaptation", "benchmarking", "transcriptomics"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+authors = [{ name = "yyb", email = "yyb2020123@163.com" }]
+maintainers = [{ name = "yyb", email = "yyb2020123@163.com" }]
+
+[project.urls]
+Homepage = "https://github.com/yyb2020/safedelta"
+Repository = "https://github.com/yyb2020/safedelta"
+Issues = "https://github.com/yyb2020/safedelta/issues"
+Changelog = "https://github.com/yyb2020/safedelta/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+reproduce = ["pandas>=1.5", "scipy>=1.10", "anndata>=0.9", "h5py>=3.8", "matplotlib>=3.7", "Pillow>=9", "threadpoolctl>=3"]
+test = ["pytest>=7"]
+dev = ["pytest>=7", "build>=1", "twine>=5"]
+
+[project.scripts]
+safedelta = "safedelta.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

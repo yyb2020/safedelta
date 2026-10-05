@@ -1,0 +1,14 @@
+[
+  {
+    "file": "external_criterion.py",
+    "source": "/projects/xunixibao/handoff/in/criterion_external.py",
+    "original_sha256": "b29da335f03f445dbb955b5fdf3826dd06395ebca949281a53d0990baa2b4dfd",
+    "changes": "CLI paths parameterized; removed retired dataset from external default and key map; scientific calculations unchanged."
+  },
+  {
+    "file": "sciplex_depth.py",
+    "source": "/projects/xunixibao/submission_NM/04_code/run_sciplex3_ladder.py",
+    "original_sha256": "ee120927cd29646d2daeda8396ad6c104f7dd3eb34259ef26ac9760774ad1d04",
+    "changes": "CLI paths parameterized; removed retired dataset from external default and key map; scientific calculations unchanged."
+  }
+]

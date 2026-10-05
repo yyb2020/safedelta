@@ -1,0 +1,9 @@
+dataset,pair,margin,lo,hi,resolved
+Haber,trVAE − scGen,0.011805,-0.055287,0.074887,False
+Haber,scGen − scPRAM,0.147926,0.080088,0.202813,True
+KaggleCrossCell,scGen − trVAE,0.000628,-0.029725,0.052582,False
+KaggleCrossCell,trVAE − scPRAM,0.038912,0.004359,0.137833,True
+McFarland,scGen − scPRAM,0.023901,-0.010449,0.061121,False
+McFarland,scPRAM − trVAE,0.033405,-0.024557,0.082508,False
+sciplex3,trVAE − scGen,0.007923,-0.001475,0.012725,False
+sciplex3,scGen − scPRAM,0.16119,0.114305,0.195988,True

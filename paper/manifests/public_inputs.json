@@ -1,0 +1,64 @@
+[
+  {
+    "dataset": "Haber",
+    "kind": "publisher_preprocessed_expression_matrix",
+    "matrix_file": "Haber.h5ad",
+    "matrix_sha256": "a94f6f0d99cf09ef5d6ef117c1fe9ce6732006e45994f95c8e5ef44554bf4205",
+    "matrix_bytes": 592930236,
+    "archive_md5_expected": "29b81705e358ca8546f8a5cff70dfd86",
+    "url": "https://zenodo.org/records/14607156/files/Haber.h5ad.gz?download=1",
+    "archive_md5_observed": "29b81705e358ca8546f8a5cff70dfd86",
+    "archive_md5_passed": true
+  },
+  {
+    "dataset": "KaggleCrossCell",
+    "kind": "publisher_preprocessed_expression_matrix",
+    "matrix_file": "KaggleCrossCell.h5ad",
+    "matrix_sha256": "782550adfa22944d6679fc99a81594f34de58ed171a9e5eefb85b39c8d3a63ad",
+    "matrix_bytes": 1196859708,
+    "archive_md5_expected": "37a60cd8f77687c9627ccb73a38442ee",
+    "url": "https://zenodo.org/records/14607156/files/KaggleCrossCell.h5ad.gz?download=1",
+    "archive_md5_observed": "37a60cd8f77687c9627ccb73a38442ee",
+    "archive_md5_passed": true
+  },
+  {
+    "dataset": "McFarland",
+    "kind": "publisher_preprocessed_expression_matrix",
+    "matrix_file": "McFarland.h5ad",
+    "matrix_sha256": "fa473b814dd98803f6ede4c64e7c5298eee4fe5f5564c3d4d58e370b2188fd2e",
+    "matrix_bytes": 272425784,
+    "archive_md5_expected": "1540ad44297a02eeb83e285a31e42d78",
+    "url": "https://zenodo.org/records/14607156/files/McFarland.h5ad.gz?download=1",
+    "archive_md5_observed": "1540ad44297a02eeb83e285a31e42d78",
+    "archive_md5_passed": true
+  },
+  {
+    "dataset": "sciplex3",
+    "kind": "publisher_preprocessed_expression_matrix",
+    "matrix_file": "sciplex3.h5ad",
+    "matrix_sha256": "f4a14eedeb5189ec4c0ae6b9dcc816db5a01c0cf6b029c52df0d9d47b466be7d",
+    "matrix_bytes": 589108092,
+    "archive_md5_expected": "963e324e2a1605b4e7c0cf7e36c925ca",
+    "url": "https://zenodo.org/records/14607156/files/sciplex3.h5ad.gz?download=1",
+    "archive_md5_observed": "963e324e2a1605b4e7c0cf7e36c925ca",
+    "archive_md5_passed": true
+  },
+  {
+    "dataset": "Tahoe Plate 2",
+    "kind": "raw_counts_h5ad_or_original_csr_chunk_cache",
+    "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/tahoe100M/2025-02-25/h5ad/plate2_filt_Vevo_Tahoe100M_WServicesFrom_ParseGigalab.h5ad",
+    "publisher_file_md5": "bacc6f8aea866eec344589c40825425b",
+    "publisher_file_bytes": 29037152127,
+    "local_validation": "Raw selected counts rebuilt from original CSR chunk cache; full publisher H5AD MD5 cannot be verified from a partial cache.",
+    "cache_files": 6277,
+    "cache_manifest_sha256": "503f3f0791b9a7f99d7c785b68a4d3b6a7d1e3435642708c8e3f1a471b0cc6bf",
+    "cache_manifest": "tahoe_plate2_cache.tsv"
+  },
+  {
+    "dataset": "Tahoe Plate 7",
+    "kind": "raw_counts_h5ad",
+    "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/tahoe100M/2025-02-25/h5ad/plate7_filt_Vevo_Tahoe100M_WServicesFrom_ParseGigalab.h5ad",
+    "local_matrix_bytes": 16514746341,
+    "matrix_sha256": "7fb7aa8b4ef2ba85fcacc6672a9e55a2054fca58dc3642c267d398edb7f9bec7"
+  }
+]

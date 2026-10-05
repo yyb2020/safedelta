@@ -1,0 +1,122 @@
+[
+  {
+    "file": "criterion_external_panels.csv",
+    "sha256": "1399b2a7c423a88a1af9e403342bf42b92cf30202bac0b74cc080e644d726919",
+    "bytes": 17827,
+    "comparison_scope": "subset"
+  },
+  {
+    "file": "criterion_external_summary.csv",
+    "sha256": "5f04a4e9e59b4dd4e46655aa157e0e6587b9dc87afa7cb8e8a2f1f9e014147f1",
+    "bytes": 2479,
+    "comparison_scope": "subset"
+  },
+  {
+    "file": "criterion_predicts_transfer.csv",
+    "sha256": "6cf3a3f0b22de51f762ce7abc008d2e6af072134e039689f206ebfe74b5ca9b1",
+    "bytes": 18143,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "criterion_threshold_loco_v2.csv",
+    "sha256": "1fc5535108353a2839847339a020ea245aa4a959b43d68870f8039293851e54a",
+    "bytes": 629,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "fig1d_external_validation.csv",
+    "sha256": "9552d6cafc29b73dcd9e972258523a355d99e319aeaae40cb2f98e34c18fb7e9",
+    "bytes": 405,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "lib_ablate_raw.csv",
+    "sha256": "356648e7197c8bb9ebc4b98953e1b2720238191bc4ddf47494cbc98b144517d3",
+    "bytes": 102162,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "lib_ablate_summary.csv",
+    "sha256": "4ae35833c286e907033c30ac2d7cc84d3f52953fa1fe8ad2f99af4c802194256",
+    "bytes": 249,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "liver_adapter_decomposition.csv",
+    "sha256": "420bf2c2e6661b8563ea53b61ccc4294f54267a90839508b6a0ba8e5b566e51e",
+    "bytes": 51341,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "liver_core94_signature.csv",
+    "sha256": "fb724321689f98bbfdf0b6a5ff1f0b0d1a97e972201f02936865842b4938497b",
+    "bytes": 5663,
+    "comparison_scope": "column_subset"
+  },
+  {
+    "file": "liver_spatial_section_contrast.csv",
+    "sha256": "c363e9f4b57e7f13b6a169b8e3836c994c3bef5d81e227447a1f516f2fb0b372",
+    "bytes": 2388,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "liver_spatial_spot_scores.csv",
+    "sha256": "f0cf2fb386bc0acee17ac108131fb19c8b04e813a6030235988701e1d170fc1a",
+    "bytes": 2445479,
+    "comparison_scope": "column_subset"
+  },
+  {
+    "file": "liver_spatial_state_vs_abundance.csv",
+    "sha256": "daa62b536c8c4e9141f3a7e3a5e6fec9dc999a10eb7a51a77806737d559a5794",
+    "bytes": 1060,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "liver_threshold_sensitivity_per_section.csv",
+    "sha256": "27953609aa926440208cde784d3204ba2438cd23ff3ea62dd5c2ca91987e7d90",
+    "bytes": 1733,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "plate7_depth_ladder.csv",
+    "sha256": "6b4a5fcb25aa1b4b1df6e445e61a27dbe0ef81655fa84db89bcc3150eeaf33fd",
+    "bytes": 155242,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "release_rule_validation.csv",
+    "sha256": "e63b5bd02299fd18b4c3fb7eefb0e628d44a98a6327a44b4bc71342e90bc52a4",
+    "bytes": 289,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "safedelta_gate_evidence_repair.csv",
+    "sha256": "eeb4822892b0512635090adeb1bbe750ba0a90dcedc2d4e85cc7c4ffbd5a0486",
+    "bytes": 8600,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "sciplex3_depth_lambda.csv",
+    "sha256": "373b855583f96a68ed84700663ec208d5f19737397a699401d7c8b3ccb316e60",
+    "bytes": 3561,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "sciplex3_depth_numerator_gap.csv",
+    "sha256": "0a070a03c4a4a3d86d4dd9628eda7f54169af6481759fd01cd0fb73778e8a75b",
+    "bytes": 1427626,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "weightrule2_summary.csv",
+    "sha256": "b30c6e7414c940dc8336d8c5657822119de1ca712f96d560251a39779625cb6e",
+    "bytes": 499,
+    "comparison_scope": "full"
+  },
+  {
+    "file": "weightrule_summary.csv",
+    "sha256": "ca63d331b4e345265fc7068298787781cb6c1f3c803cb9b4de87bf9f8bc8aede",
+    "bytes": 674,
+    "comparison_scope": "full"
+  }
+]

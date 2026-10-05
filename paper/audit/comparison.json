@@ -1,0 +1,1406 @@
+{
+  "full_paper_passed": false,
+  "active_plot_tables": 79,
+  "fully_verified_active_tables": 15,
+  "outstanding_full_table_verification": [
+    "adapter_cellot_kagglecrosspatient.csv",
+    "adapter_formal_panel_metrics.csv",
+    "adapter_formal_safety_summary.csv",
+    "capacity2_summary.csv",
+    "carriage_additivity.csv",
+    "ceiling_vs_depth_merged.csv",
+    "composition_rule_carriage.csv",
+    "criterion_external_summary.csv",
+    "depth_honest_summary.csv",
+    "ed4_cluster_bootstrap.csv",
+    "fig3b_carriage_by_model_dataset.csv",
+    "gate_policy_comparison_celllines.csv",
+    "headroom_by_k.csv",
+    "iid_arm_ranking.csv",
+    "improve_by_k.csv",
+    "jiang_pathway_arm_metrics.csv",
+    "k562_growth_bootstrap.csv",
+    "k562_growth_metrics.csv",
+    "k562_mean_bootstrap.csv",
+    "k562_mean_per_fold.csv",
+    "lambda_not_depth.csv",
+    "lambda_prehoc_vs_posthoc.csv",
+    "lambda_screen_all_datasets.csv",
+    "liver_axis_cross_system.csv",
+    "liver_cohort_stage_association.csv",
+    "liver_core94_signature.csv",
+    "liver_core_external_validation.csv",
+    "liver_core_vs_specific_per_section.csv",
+    "liver_spatial_spot_scores.csv",
+    "lofo_permutation_summary.csv",
+    "lofo_strategy_summary.csv",
+    "mixseq_comparator_suite.csv",
+    "nm_bias_vs_margin.csv",
+    "nm_design_requirement.csv",
+    "nm_identifiability_shared_regime.csv",
+    "nm_leaderboard_identifiability.csv",
+    "plate2_calmean_shared_term.csv",
+    "plate2_centering_null.csv",
+    "plate2_firewall_registry.csv",
+    "plate2_per_drug_reliability.csv",
+    "plate2_prospective_context_summary.csv",
+    "plate2_prospective_overall_summary.csv",
+    "plate2_shared_term_removal.csv",
+    "plate2_shared_variance_share.csv",
+    "plate7_depth_law_summary.csv",
+    "plate7_depth_numerator_gap.csv",
+    "plate7_depth_sweep_ladder.csv",
+    "samplesize_vs_k.csv",
+    "scgen_control_regime.csv",
+    "scgen_control_regime_sensitivity.csv",
+    "sciplex3_batch_offset_summary.csv",
+    "selection_summary.csv",
+    "singlecell_distribution_aggregate.csv",
+    "singlecell_distribution_inner_selection.csv",
+    "spatial_expressed_pool.csv",
+    "split_key_confounding.csv",
+    "tahoe_budget_k_comparison.csv",
+    "trvae_sciplex3_regime.csv",
+    "trvae_tahoe_regime.csv",
+    "w10_carriage_norm_vs_projection.csv",
+    "w10_dataset_audit.csv",
+    "w10_four_dataset_verified.csv",
+    "w10_reproduction_paired.csv",
+    "w10_winner_change_vs_margin.csv"
+  ],
+  "passed": true,
+  "tables": [
+    {
+      "table": "criterion_external_panels.csv",
+      "actual_rows": 141,
+      "reference_rows": 282,
+      "compared_rows": 141,
+      "scope": "subset",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "dataset": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "base": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "context": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "target": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "split": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "n0": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "k": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "evid_loo": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "evid_insample": {
+          "passed": true,
+          "max_abs": 9.71445146547012e-17,
+          "mismatched": 0
+        },
+        "evid_shared": {
+          "passed": true,
+          "max_abs": 1.1102230246251565e-16,
+          "mismatched": 0
+        },
+        "true_gain": {
+          "passed": true,
+          "max_abs": 1.0408340855860843e-16,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "criterion_external_summary.csv",
+      "actual_rows": 12,
+      "reference_rows": 24,
+      "compared_rows": 12,
+      "scope": "subset",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "dataset": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "base": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "evidence": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "n_panels": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "n_contexts": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "frac_true_positive": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "frac_released": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "precision": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "recall": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "gain_always": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "gain_gated": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "gain_never": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "harm_avoided": {
+          "passed": true,
+          "max_abs": 9.71445146547012e-17,
+          "mismatched": 0
+        },
+        "spearman": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "spearman_p": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "ctx_spearman_median": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "criterion_predicts_transfer.csv",
+      "actual_rows": 270,
+      "reference_rows": 270,
+      "compared_rows": 270,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "ctx": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "evid_split": {
+          "passed": true,
+          "max_abs": 2.0122792321330962e-16,
+          "mismatched": 0
+        },
+        "true_gain": {
+          "passed": true,
+          "max_abs": 3.0010716134398763e-16,
+          "mismatched": 0
+        },
+        "setting": {
+          "passed": true,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "criterion_threshold_loco_v2.csv",
+      "actual_rows": 15,
+      "reference_rows": 15,
+      "compared_rows": 15,
+      "scope": "full",
+      "atol": 5e-06,
+      "rtol": 1e-08,
+      "columns": {
+        "held": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "t_fitted": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "gain_fitted": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "gain_t0": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "gain_always": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "gain_never": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "fig1d_external_validation.csv",
+      "actual_rows": 6,
+      "reference_rows": 6,
+      "compared_rows": 6,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "ds": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "n": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "always": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "gated": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "rel": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "shared": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "lib_ablate_raw.csv",
+      "actual_rows": 640,
+      "reference_rows": 640,
+      "compared_rows": 640,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "k": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "split": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "line": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "L0": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix03": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "L2_zero_offset": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "woff_L2_zero_offset": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "L3_plus_source": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "woff_L3_plus_source": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "L4_full": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "woff_L4_full": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "lib_ablate_summary.csv",
+      "actual_rows": 2,
+      "reference_rows": 2,
+      "compared_rows": 2,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "k": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "L0": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "L2_zero_offset": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "L3_plus_source": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "L4_full": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix03": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_L2_zero_offset": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_L3_plus_source": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_L4_full": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix03": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "liver_adapter_decomposition.csv",
+      "actual_rows": 438,
+      "reference_rows": 438,
+      "compared_rows": 438,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "ensg": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "sym": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "pHSC": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "LX2": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "B": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Delta": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "dominant": {
+          "passed": true,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "liver_core94_signature.csv",
+      "actual_rows": 94,
+      "reference_rows": 94,
+      "compared_rows": 94,
+      "scope": "column_subset",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "ensg": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "sym": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "pHSC": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "LX2": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        }
+      },
+      "passed": true,
+      "verified_columns": [
+        "ensg",
+        "sym",
+        "pHSC",
+        "LX2"
+      ],
+      "unverified_columns": [
+        "in_frozen_axis"
+      ]
+    },
+    {
+      "table": "liver_spatial_section_contrast.csv",
+      "actual_rows": 15,
+      "reference_rows": 15,
+      "compared_rows": 15,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "section": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "group": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "n_spots": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "n_scar": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "n_hep": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "n_chol": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "core94_scar": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "core94_hep": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "core94_scar_minus_hep": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Bdom_scar": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Bdom_hep": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Bdom_scar_minus_hep": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Ddom_scar": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Ddom_hep": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Ddom_scar_minus_hep": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "core94_scar_median_h": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Bdom_scar_median_h": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Ddom_scar_median_h": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "frac_scar_above_hep_median": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "liver_spatial_spot_scores.csv",
+      "actual_rows": 19220,
+      "reference_rows": 19220,
+      "compared_rows": 19220,
+      "scope": "column_subset",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "section": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "barcode": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "x": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "y": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "umi": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "region": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "core94": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Bdom": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Ddom": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "core94_h": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Bdom_h": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "Ddom_h": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "cell2loc_hep_prop": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "cell2loc_stellate_prop": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "cell2loc_chol_prop": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        }
+      },
+      "passed": true,
+      "verified_columns": [
+        "section",
+        "barcode",
+        "x",
+        "y",
+        "umi",
+        "region",
+        "core94",
+        "Bdom",
+        "Ddom",
+        "core94_h",
+        "Bdom_h",
+        "Ddom_h",
+        "cell2loc_hep_prop",
+        "cell2loc_stellate_prop",
+        "cell2loc_chol_prop"
+      ],
+      "unverified_columns": [
+        "hsc_identity",
+        "signed_hsc_state"
+      ]
+    },
+    {
+      "table": "liver_spatial_state_vs_abundance.csv",
+      "actual_rows": 15,
+      "reference_rows": 15,
+      "compared_rows": 15,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "score": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "stellate_quintile": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "stellate_prop_median": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "n_scar": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "n_hep": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "scar_median": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "hep_median": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "scar_minus_hep": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "rho_with_stellate": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "liver_threshold_sensitivity_per_section.csv",
+      "actual_rows": 60,
+      "reference_rows": 60,
+      "compared_rows": 60,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "section": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "core": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "spec": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "threshold": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "plate7_depth_ladder.csv",
+      "actual_rows": 720,
+      "reference_rows": 720,
+      "compared_rows": 720,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "ctx": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "mode": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "L0_perturbation_mean": {
+          "passed": true,
+          "max_abs": 2.220446049250313e-16,
+          "mismatched": 0
+        },
+        "L1_scalar": {
+          "passed": true,
+          "max_abs": 2.220446049250313e-16,
+          "mismatched": 0
+        },
+        "L1i_scalar_intercept": {
+          "passed": true,
+          "max_abs": 2.220446049250313e-16,
+          "mismatched": 0
+        },
+        "L2_global_offset": {
+          "passed": true,
+          "max_abs": 3.3306690738754696e-16,
+          "mismatched": 0
+        },
+        "L2b_low_rank": {
+          "passed": true,
+          "max_abs": 2.220446049250313e-16,
+          "mismatched": 0
+        },
+        "L3_published_gate": {
+          "passed": true,
+          "max_abs": 2.220446049250313e-16,
+          "mismatched": 0
+        },
+        "L3_repaired_gate": {
+          "passed": true,
+          "max_abs": 2.220446049250313e-16,
+          "mismatched": 0
+        },
+        "w_global": {
+          "passed": true,
+          "max_abs": 4.440892098500626e-16,
+          "mismatched": 0
+        },
+        "w_lowrank": {
+          "passed": true,
+          "max_abs": 4.0245584642661925e-16,
+          "mismatched": 0
+        },
+        "released_pub": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "released_rep": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "depth": {
+          "passed": true,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "release_rule_validation.csv",
+      "actual_rows": 3,
+      "reference_rows": 3,
+      "compared_rows": 3,
+      "scope": "full",
+      "atol": 5e-06,
+      "rtol": 1e-08,
+      "columns": {
+        "k": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "rule": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "released": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "beneficial": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "harmful": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "abstained": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "missed_beneficial": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "realized": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "always": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "setting": {
+          "passed": true,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "safedelta_gate_evidence_repair.csv",
+      "actual_rows": 120,
+      "reference_rows": 120,
+      "compared_rows": 120,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "ctx": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "evid_coupled": {
+          "passed": true,
+          "max_abs": 2.220446049250313e-16,
+          "mismatched": 0
+        },
+        "evid_coupled_sign": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "evid_split": {
+          "passed": true,
+          "max_abs": 1.1102230246251565e-16,
+          "mismatched": 0
+        },
+        "evid_split_sign": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "true_gain": {
+          "passed": true,
+          "max_abs": 1.1102230246251565e-16,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "sciplex3_depth_lambda.csv",
+      "actual_rows": 54,
+      "reference_rows": 54,
+      "compared_rows": 54,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "context": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "split": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "n0": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "noise_centred": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "signal": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "nxn": {
+          "passed": true,
+          "max_abs": 2.2737367544323206e-13,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "sciplex3_depth_numerator_gap.csv",
+      "actual_rows": 9072,
+      "reference_rows": 9072,
+      "compared_rows": 9072,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "context": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "split": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fold": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "cells_per_condition": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "drug": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "method": {
+          "passed": true,
+          "mismatched": 0
+        },
+        "pcc_shared": {
+          "passed": true,
+          "max_abs": 1.0408340855860843e-16,
+          "mismatched": 0
+        },
+        "pcc_indep": {
+          "passed": true,
+          "max_abs": 1.1102230246251565e-16,
+          "mismatched": 0
+        },
+        "dot_shared": {
+          "passed": true,
+          "max_abs": 3.552713678800501e-15,
+          "mismatched": 0
+        },
+        "dot_indep": {
+          "passed": true,
+          "max_abs": 3.552713678800501e-15,
+          "mismatched": 0
+        },
+        "gap": {
+          "passed": true,
+          "max_abs": 5.329070518200751e-15,
+          "mismatched": 0
+        },
+        "gxn": {
+          "passed": true,
+          "max_abs": 9.094947017729282e-13,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "weightrule2_summary.csv",
+      "actual_rows": 2,
+      "reference_rows": 2,
+      "compared_rows": 2,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "k": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "L0": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "simplex_r0.001": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "simplex_r0.01": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "simplex_r0.1": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "loo": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix0.1": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix0.2": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix0.3": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix0.4": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "oracle": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_simplex_r0.001": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_simplex_r0.01": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_simplex_r0.1": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_loo": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix0.1": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix0.2": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix0.3": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix0.4": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_oracle": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    },
+    {
+      "table": "weightrule_summary.csv",
+      "actual_rows": 2,
+      "reference_rows": 2,
+      "compared_rows": 2,
+      "scope": "full",
+      "atol": 1e-09,
+      "rtol": 1e-08,
+      "columns": {
+        "k": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "L0": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "w_oracle": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "w_loo": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix0.0": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix0.1": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix0.2": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix0.3": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix0.4": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix0.5": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix0.7": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "fix1.0": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "ceil_oracle": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "ceil_fix0.3": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "w_oracle_arg": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "w_loo_arg": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_w_oracle": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_w_loo": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix0.0": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix0.1": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix0.2": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix0.3": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix0.4": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix0.5": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix0.7": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_fix1.0": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_ceil_oracle": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        },
+        "g_ceil_fix0.3": {
+          "passed": true,
+          "max_abs": 0.0,
+          "mismatched": 0
+        }
+      },
+      "passed": true
+    }
+  ],
+  "note": "Pass applies only to listed comparisons; subset coverage is explicit. Unlisted figure tables are not verified."
+}

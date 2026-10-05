@@ -1,0 +1,81 @@
+[
+  {
+    "file": "analyze_w10.py",
+    "sha256": "f9a7fd118826024ab0f7feac992493bd6f29cf3b2c519850369b9f47855bece3",
+    "status": "recovered_not_rerun"
+  },
+  {
+    "file": "compare_published.py",
+    "sha256": "da55d0a87f570c7652909716cee9c7ee76d4cd880aada27cae8c386d214adae2",
+    "status": "recovered_not_rerun"
+  },
+  {
+    "file": "depth_honest.py",
+    "sha256": "f493ff99ff1d8161ed7f29af2cdcd2716be999806360489a5a0f57cfdbdf534d",
+    "status": "recovered_not_rerun"
+  },
+  {
+    "file": "freeze_gene_sets.py",
+    "sha256": "eb4518683e724749ca2a90a10cf5d8852c2f382062d0a8fc7824c9c28f760a88",
+    "status": "recovered_not_rerun"
+  },
+  {
+    "file": "headroom.py",
+    "sha256": "4dc0e02d0297da2f5cfede55b43a76bb94dcfe9156810d2a48e7ad23caa57eb4",
+    "status": "recovered_not_rerun"
+  },
+  {
+    "file": "improve.py",
+    "sha256": "6b5cc11f0da21ca24a0d0542db18378d37ba448914304cc7f1c4aca83dd6ecf9",
+    "status": "recovered_not_rerun"
+  },
+  {
+    "file": "lib_ablate.py",
+    "sha256": "0d27cd7dba65a99d49d902bc6e384545cf885da7fa7839bfc057d62f37cb9ee0",
+    "status": "executed_on_raw_rebuilt_16line_cube_and_output_verified"
+  },
+  {
+    "file": "liver_sens_exact.py",
+    "sha256": "f003c554d38724da9f3ccc253907a454a758761f0bf08a607d00102b64b48fca",
+    "status": "recovered_not_rerun"
+  },
+  {
+    "file": "run_scgen.py",
+    "sha256": "f4b721d32959ca56037ab714e1f1f44f1b969339a28245fafc42647e13e05e74",
+    "status": "recovered_not_rerun"
+  },
+  {
+    "file": "run_trvae.py",
+    "sha256": "0658c4863e86732a7aa7e03bd6428b05dbd912d753dc05e69be20d88463ac628",
+    "status": "recovered_not_rerun"
+  },
+  {
+    "file": "run_w10_pairwise.py",
+    "sha256": "ff782e5a17894d4f5b88961ca1db40c4396fee8dea3da6fe9106ef3f0ffeb215",
+    "status": "recovered_not_rerun",
+    "upstream_sha256": "bae8ac49d32e633e7f596e3d2d36628672cfeb4f8edf3388c7a1a270d23c6b24",
+    "release_edit": "Removed retired dataset from split-key registry; not part of the active reproduction runner."
+  },
+  {
+    "file": "run_w10_trvae.py",
+    "sha256": "e9cf608eb2604619a405b63281daf08adc9b25d96fc4e80e7b630735a33a2a6b",
+    "status": "recovered_not_rerun",
+    "upstream_sha256": "35c7e7377a74edec7ca3b9a1e2a9da04f3a9dabde92b4d81b2d222bc9e7324ea",
+    "release_edit": "Removed retired dataset from split-key registry; not part of the active reproduction runner."
+  },
+  {
+    "file": "run_zenodo_ladder.py",
+    "sha256": "766e3d110a98ecb28a243f8fa7ea835bec955ec3276f60385b3b8021291f8525",
+    "status": "recovered_not_rerun"
+  },
+  {
+    "file": "weightrule.py",
+    "sha256": "df15b46a359995c5bb69c6af5ba59dc57c11df35475cbfd4c0f49d3682c06b5f",
+    "status": "executed_on_raw_rebuilt_16line_cube_and_output_verified"
+  },
+  {
+    "file": "weightrule2.py",
+    "sha256": "d6938a36d2a1b073c38f1170ce77222a778e5b85c532ce704e0250408b22a50a",
+    "status": "executed_on_raw_rebuilt_16line_cube_and_output_verified"
+  }
+]

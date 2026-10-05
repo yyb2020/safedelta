@@ -1,0 +1,9 @@
+dataset,n0_now,hardest_pair,margin,bias_now,criterion,n0_required,fold_increase
+Haber,184,trVAE − scGen,0.0059,0.1257,bias ≤ 25% of margin,15705,85.1214
+Haber,184,trVAE − scGen,0.0059,0.1257,bias ≤ 10% of margin,39262,212.8036
+KaggleCrossCell,996,trVAE − scGen,0.0037,0.0333,bias ≤ 25% of margin,36177,36.3223
+KaggleCrossCell,996,trVAE − scGen,0.0037,0.0333,bias ≤ 10% of margin,90443,90.8058
+McFarland,245,scGen − scPRAM,0.0164,0.0546,bias ≤ 25% of margin,3263,13.3186
+McFarland,245,scGen − scPRAM,0.0164,0.0546,bias ≤ 10% of margin,8158,33.2964
+sciplex3,1752,trVAE − scGen,0.0048,0.0116,bias ≤ 25% of margin,16893,9.642
+sciplex3,1752,trVAE − scGen,0.0048,0.0116,bias ≤ 10% of margin,42232,24.105

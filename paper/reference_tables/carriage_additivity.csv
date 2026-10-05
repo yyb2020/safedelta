@@ -1,0 +1,7 @@
+dataset,model,composed,a_model,a_added,a_composed,predicted,resid
+KaggleCrossCell,trVAE,trVAE_plus_offset,0.884596,1.0,0.971785,1.884596,-0.912811
+KaggleCrossCell,trVAE,trVAE_plus_calmean,0.884596,1.0,1.884596,1.884596,-0.0
+McFarland,trVAE,trVAE_plus_offset,0.682178,1.0,1.043246,1.682178,-0.638932
+McFarland,trVAE,trVAE_plus_calmean,0.682178,1.0,1.682178,1.682178,0.0
+sciplex3,trVAE,trVAE_plus_offset,0.624588,1.0,0.962714,1.624588,-0.661874
+sciplex3,trVAE,trVAE_plus_calmean,0.624588,1.0,1.624588,1.624588,-0.0

@@ -1,0 +1,218 @@
+[
+  {
+    "file": "carriage_additivity.csv",
+    "sha256": "b1e465d7b3480c87cfe929a38941632febfab22dd13bcb574a8a44b7384d5318",
+    "bytes": 513,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "composition_rule_carriage.csv",
+    "sha256": "849ed7c1cb3c7a681d0359354039ee66a028ae2989c19846ff26e3b387535e4f",
+    "bytes": 685,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "criterion_external_panels.csv",
+    "sha256": "9b17b4dfa1b048637c84f73a69c230f271601dbea6d8b4418676edd9aaf9ef72",
+    "bytes": 34999,
+    "role": "supporting_verification_fixture"
+  },
+  {
+    "file": "criterion_external_summary.csv",
+    "sha256": "e23c72f1f1f8e805ed500ef3060523a2487794a7e8f4d659811d85d7d2724c68",
+    "bytes": 4880,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "criterion_predicts_transfer.csv",
+    "sha256": "4749bc5af4de5c38b550a73d0230bbbe85bb8f8240ab5d6e249e8af1efcc3652",
+    "bytes": 18400,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "criterion_threshold_loco_v2.csv",
+    "sha256": "1fc5535108353a2839847339a020ea245aa4a959b43d68870f8039293851e54a",
+    "bytes": 629,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "fig1d_external_validation.csv",
+    "sha256": "e6d0dba067349e8cbf77b87ea6ec1f36d48f2e97a2b3120fcae3932a377471ba",
+    "bytes": 406,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "fig3b_carriage_by_model_dataset.csv",
+    "sha256": "3d48a6d49860411c1f6413be1446ac3afa77dfa2403f6112303357d0257c3d28",
+    "bytes": 1097,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "iid_arm_ranking.csv",
+    "sha256": "9e898a71a306ebcc20a7a42339f37dcee4f74454b7b452349fb260a553c7a4d0",
+    "bytes": 606,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "lambda_not_depth.csv",
+    "sha256": "0f956ec04e74bdd5b49510b90db164d385179a7679e5e8f6c377faa6a1c89eb0",
+    "bytes": 343,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "lambda_screen_all_datasets.csv",
+    "sha256": "769dd308f5eca584230be8151df7e0963dcff4e6698775e8527e9b7b5486b67d",
+    "bytes": 10704,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "lib_ablate_raw.csv",
+    "sha256": "356648e7197c8bb9ebc4b98953e1b2720238191bc4ddf47494cbc98b144517d3",
+    "bytes": 102162,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "lib_ablate_summary.csv",
+    "sha256": "4ae35833c286e907033c30ac2d7cc84d3f52953fa1fe8ad2f99af4c802194256",
+    "bytes": 249,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "liver_adapter_decomposition.csv",
+    "sha256": "420bf2c2e6661b8563ea53b61ccc4294f54267a90839508b6a0ba8e5b566e51e",
+    "bytes": 51341,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "liver_cohort_stage_association.csv",
+    "sha256": "d1fd25a9036f4132fbc902b466da39514f7594ce334ff61f4e290aa86da21f32",
+    "bytes": 1045,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "liver_core94_signature.csv",
+    "sha256": "ece3c74e04f2b767e4f187d716e42464a339b0ff638df2dc488fe194ea8f2c42",
+    "bytes": 6188,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "liver_core_external_validation.csv",
+    "sha256": "f2cc878f5d1f41f202ad409380ef5523a5186fbd0637507478948adbe4f6af94",
+    "bytes": 856,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "liver_core_vs_specific_per_section.csv",
+    "sha256": "23626d5245b0e67a34c45f8726be3f53e0818388825c79ec12986392a24841c1",
+    "bytes": 1613,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "liver_spatial_section_contrast.csv",
+    "sha256": "c363e9f4b57e7f13b6a169b8e3836c994c3bef5d81e227447a1f516f2fb0b372",
+    "bytes": 2388,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "liver_spatial_spot_scores.csv",
+    "sha256": "ab22740e61f9d49ba71092f864599ae7113892a4f0940cdb94a66b13a76b8d10",
+    "bytes": 2807357,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "liver_spatial_state_vs_abundance.csv",
+    "sha256": "daa62b536c8c4e9141f3a7e3a5e6fec9dc999a10eb7a51a77806737d559a5794",
+    "bytes": 1060,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "liver_threshold_sensitivity_per_section.csv",
+    "sha256": "27953609aa926440208cde784d3204ba2438cd23ff3ea62dd5c2ca91987e7d90",
+    "bytes": 1733,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "nm_bias_vs_margin.csv",
+    "sha256": "6b058b3f435b7405b75a6f20359aec19527f8014a0d86f12f77363cd0cdb9afb",
+    "bytes": 810,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "nm_design_requirement.csv",
+    "sha256": "a07b1fec8df39c64d93d8c88fcf735c5135e07a320f9689174a22f74a9cbe915",
+    "bytes": 730,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "nm_identifiability_shared_regime.csv",
+    "sha256": "2595a1b397300e44455423428b91b0cba0d7684a3cacff97fa4d8c7eeb4052ec",
+    "bytes": 515,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "nm_leaderboard_identifiability.csv",
+    "sha256": "fdaed91877da8cd5fdf7c5fcc4ca3fd772c45696dbfa7764117743ecfcc642fa",
+    "bytes": 568,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "plate7_depth_ladder.csv",
+    "sha256": "72c9eaf9fc37c20afe9564ee90ee10e673bae9a451a7196d844c4ef4e0fa773f",
+    "bytes": 155288,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "plate7_depth_law_summary.csv",
+    "sha256": "ecf30f2ef3738529a7a2fd3bbae929e6b0301d144bf69677e28f44d4ff52cb73",
+    "bytes": 435,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "release_rule_validation.csv",
+    "sha256": "e63b5bd02299fd18b4c3fb7eefb0e628d44a98a6327a44b4bc71342e90bc52a4",
+    "bytes": 289,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "safedelta_gate_evidence_repair.csv",
+    "sha256": "661ad2a8408a3cf36f10659f2391341f0142233f75ecd4461748b539380ea252",
+    "bytes": 8596,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "sciplex3_depth_lambda.csv",
+    "sha256": "527da2e95e900a7e7924df9496a28255096e33595df3c5a055e562dd2b336434",
+    "bytes": 3545,
+    "role": "supporting_verification_fixture"
+  },
+  {
+    "file": "sciplex3_depth_numerator_gap.csv",
+    "sha256": "9bc1f481796e6df5741517f4e4a161a4de4a8c5a8b18fad3a6c5ba48b281ad45",
+    "bytes": 1408771,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "w10_four_dataset_verified.csv",
+    "sha256": "ee6fed5ebc8274bf42d0d5826ce47bf126d0400d3ab385f84d212b0172291a7c",
+    "bytes": 3695,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "w10_reproduction_paired.csv",
+    "sha256": "4fe13df0f8ec3726a38f4712b645fa8f46f906e245007f5d73d77f92f411007c",
+    "bytes": 688,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "weightrule2_summary.csv",
+    "sha256": "b30c6e7414c940dc8336d8c5657822119de1ca712f96d560251a39779625cb6e",
+    "bytes": 499,
+    "role": "active_plot_table"
+  },
+  {
+    "file": "weightrule_summary.csv",
+    "sha256": "ca63d331b4e345265fc7068298787781cb6c1f3c803cb9b4de87bf9f8bc8aede",
+    "bytes": 674,
+    "role": "active_plot_table"
+  }
+]

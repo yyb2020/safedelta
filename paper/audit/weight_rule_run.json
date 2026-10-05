@@ -1,0 +1,21 @@
+{
+  "started_utc": "2026-10-01T02:44:28Z",
+  "cube_sha256": "a2f0b57bf770896dbb4f0b5e095fa2f9910d3d1a9b47994679d87ee1e452b449",
+  "analyses": [
+    {
+      "script": "weightrule2.py",
+      "sha256": "d6938a36d2a1b073c38f1170ce77222a778e5b85c532ce704e0250408b22a50a",
+      "completed": true
+    },
+    {
+      "script": "weightrule.py",
+      "sha256": "df15b46a359995c5bb69c6af5ba59dc57c11df35475cbfd4c0f49d3682c06b5f",
+      "completed": true
+    },
+    {
+      "script": "lib_ablate.py",
+      "sha256": "0d27cd7dba65a99d49d902bc6e384545cf885da7fa7839bfc057d62f37cb9ee0",
+      "completed": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+.env
+.env.*
+*.pem
+*.key
+paper/generated/
+paper/raw/
+paper/figures/figout/
+
+.ruff_cache/
+.coverage

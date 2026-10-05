@@ -1,0 +1,4 @@
+k,rule,released,beneficial,harmful,abstained,missed_beneficial,realized,always,setting
+5,sign rule t=0,143,142,1,7,7,0.01833,0.01853,Plate 7 native (400)
+5,sign rule t=0,0,0,0,120,0,0.0,-0.08582,Plate 2 (20)
+5,"tuned on deep, applied to shallow",9,0,9,111,0,-0.00323,-0.08582,Plate 2 (20)
