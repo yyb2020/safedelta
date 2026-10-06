@@ -36,7 +36,8 @@ Liang, Yang, Zhang et al. (2026). Author preprint; not peer reviewed.
 [Supplementary Table 1 (Excel)](preprint/SupplementaryTable1_control_definitions.xlsx)
 
 See the [preprint page](preprint/) for the abstract and author list.
-A bioRxiv DOI is not yet available.
+Submitted to bioRxiv; screening is in progress. The bioRxiv link and DOI will be
+added once the preprint is posted.
 
 ## Installation
 
