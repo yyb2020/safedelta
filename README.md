@@ -25,20 +25,6 @@ The package implements
 Source code: [GitHub](https://github.com/yyb2020/safedelta).
 Package: [PyPI](https://pypi.org/project/safedelta/).
 
-## Preprint
-
-**A split-control criterion for few-shot adaptation in single-cell perturbation prediction**
-
-Liang, Yang, Zhang et al. (2026). Author preprint; not peer reviewed.
-
-[Read the manuscript (PDF)](preprint/SafeDelta_preprint.pdf) ·
-[Supplementary Note 1 (PDF)](preprint/SafeDelta_SupplementaryNote1.pdf) ·
-[Supplementary Table 1 (Excel)](preprint/SupplementaryTable1_control_definitions.xlsx)
-
-See the [preprint page](preprint/) for the abstract and author list.
-Submitted to bioRxiv; screening is in progress. The bioRxiv link and DOI will be
-added once the preprint is posted.
-
 ## Installation
 
 ```bash
@@ -129,19 +115,6 @@ Python wheel.
 | `paper/legacy_sources/` | scripts used to run the published models (trVAE, scGen, scPRAM) and the weight comparisons; kept for provenance, only three of them are re-run by the `weights` workflow |
 | `paper/specs/`, `paper/manifests/`, `paper/audit/` | cohort specifications, file hashes and the comparison receipts of the audited runs |
 
-### Key result tables
-
-| Result | Table in `paper/reference_tables/` |
-|---|---|
-| Criterion against held-out gain on the atlas plates | `criterion_predicts_transfer.csv`, `release_rule_validation.csv`, `criterion_threshold_loco_v2.csv` |
-| Criterion on four external datasets | `criterion_external_summary.csv`, `criterion_external_panels.csv`, `fig1d_external_validation.csv` |
-| Thirteen prediction configurations under shared and independent controls | `w10_four_dataset_verified.csv`, `iid_arm_ranking.csv`, `w10_reproduction_paired.csv` |
-| Adjacent-rank margins of a published leaderboard and the depth projection | `nm_leaderboard_identifiability.csv`, `nm_identifiability_shared_regime.csv`, `nm_bias_vs_margin.csv`, `nm_design_requirement.csv` |
-| Carriage coefficient by model and dataset, and its additivity | `fig3b_carriage_by_model_dataset.csv`, `carriage_additivity.csv`, `composition_rule_carriage.csv` |
-| Inflation against the noise-to-signal ratio and control depth | `lambda_screen_all_datasets.csv`, `lambda_not_depth.csv`, `plate7_depth_law_summary.csv`, `sciplex3_depth_lambda.csv`, `sciplex3_depth_numerator_gap.csv` |
-| Adapter capacity and weight rules | `plate7_depth_ladder.csv`, `weightrule_summary.csv`, `weightrule2_summary.csv`, `lib_ablate_summary.csv` |
-| Liver fibrosis programme | `liver_core94_signature.csv`, `liver_spatial_section_contrast.csv`, `liver_core_vs_specific_per_section.csv`, `liver_cohort_stage_association.csv`, `liver_core_external_validation.csv` |
-
 ### Recomputing from public matrices
 
 ```bash
@@ -154,22 +127,6 @@ python paper/reproduce.py --config paths.json --workflow external --output paper
 See [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) for the configuration file, the
 scope of each workflow and the comparisons it performs.
 
-### Coverage, stated plainly
-
-- The workflows recompute 20 tables from public matrices and compare them with the
-  stored versions: the external-dataset criterion on the pooled predictor, the
-  sciPlex3 depth experiment, the atlas-plate criterion and adapter ladder, the weight
-  comparisons and the liver analysis. Sixteen comparisons cover complete tables;
-  four cover declared subsets: the pooled-predictor rows of the two external
-  criterion tables and selected columns of the liver signature and spot-score tables.
-- `--workflow all` means all *implemented* workflows, not every experiment in the
-  article. In the complete analysis there are 79 plot tables; 15 are fully recomputed
-  here and 3 partially. `paper/manifests/table_lineage.tsv` lists the status of each.
-- Predictions of third-party models (trVAE, scGen, scPRAM) require separately trained
-  models. The scripts that produced them are in `paper/legacy_sources/` but are not
-  re-run by the workflows, and their outputs are stored as summary tables only.
-- Figure-rendering code, per-panel plot tables, raw data and fitted checkpoints are not
-  distributed here. The author manuscript is available in [`preprint/`](preprint/).
 
 ## Citation
 
@@ -178,5 +135,4 @@ for the software citation.
 
 ## Licence
 
-The software is distributed under MIT; see [LICENSE](LICENSE).
-The manuscript and supplementary files have separate [rights information](preprint/#rights).
+MIT, see [LICENSE](LICENSE).
