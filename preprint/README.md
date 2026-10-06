@@ -28,4 +28,8 @@ https://github.com/yyb2020/safedelta/tree/main/preprint
 
 Copyright © 2026 the authors. The manuscript and supplementary files in this
 directory are separate from the software and are not covered by its MIT licence.
-A preprint reuse licence has not yet been selected.
+The manuscript and supplementary materials are licensed under
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+(CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+You may share these materials with attribution for noncommercial purposes;
+you may not distribute modified versions. See the linked licence for its full terms.
