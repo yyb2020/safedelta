@@ -8,7 +8,8 @@ Wan-Li Liang, Ya-Bing Yang and Qiong-Yi Zhang contributed equally.
 Correspondence: Wan-Yang Sun, Yun-Feng Cao and Rong-Rong He.
 
 Author manuscript, 6 October 2026. This preprint has not been peer reviewed.
-No bioRxiv DOI has been assigned yet.
+Submitted to bioRxiv; screening is in progress. The bioRxiv link and DOI will be
+added once the preprint is posted.
 
 - [Read the manuscript (PDF; main and Extended Data figures included)](SafeDelta_preprint.pdf)
 - [Supplementary Note 1 (PDF)](SafeDelta_SupplementaryNote1.pdf)
