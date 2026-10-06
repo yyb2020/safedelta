@@ -71,14 +71,7 @@ returns the pooled source exactly. This is an empirical decision, not a guarante
 benefit for every target. `predict(fold=0)` and `fold=1` expose the two fitted
 candidates under the same decision.
 
-### Preparing data
 
-For raw counts use `log_normalize_counts` on the **full gene library before gene
-selection**, then `pseudobulk_mean`. Already processed public expression matrices are
-used on their publisher-provided scale; do not normalise them twice. Independent
-control units must come from the experimental design. `split_control(unit_labels)`
-keeps measurement units separate and equalises cell counts by default. It cannot
-establish biological independence itself.
 
 ### Command line
 
@@ -90,30 +83,6 @@ safedelta fit input.npz --output result --adapter offset --convention symmetric
 
 Outputs are predictions for both folds and a JSON release decision. Pickled arrays are
 not accepted. Constant-vector PCC is undefined and leads to abstention.
-
-## Diagnostics
-
-`measure_a_directional` estimates the signed projection coefficient used in the exact
-centred-inner-product identity. `measure_a` is a non-negative norm ratio; the two are
-not interchangeable for projected or negative carriage. `dual_regime_scores` and
-`check_identity` require paired targets and both folds. `inflation_from_theory` is an
-approximation for PCC, not an exact PCC identity. `measure_lambda` centres signal and
-noise by default; `center_signal=False` explicitly requests the historical
-uncentred-signal screening convention.
-
-## Analysis code and key results
-
-The optional `paper/` directory holds the workflows that recompute the main analyses
-from public matrices, together with the key result tables. It is not part of the
-Python wheel.
-
-| Directory | Content |
-|---|---|
-| `paper/workflows/`, `paper/reproduce.py`, `paper/verify.py` | workflows that start from public expression or count matrices: `external`, `sciplex`, `tahoe`, `liver`, `weights` |
-| `paper/verified_tables/` | 20 tables recomputed by those workflows |
-| `paper/reference_tables/` | 36 frozen result tables: the 20 that the workflows are compared against and 16 summary tables of the other main results |
-| `paper/legacy_sources/` | scripts used to run the published models (trVAE, scGen, scPRAM) and the weight comparisons; kept for provenance, only three of them are re-run by the `weights` workflow |
-| `paper/specs/`, `paper/manifests/`, `paper/audit/` | cohort specifications, file hashes and the comparison receipts of the audited runs |
 
 ### Recomputing from public matrices
 
